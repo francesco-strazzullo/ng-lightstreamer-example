@@ -15,7 +15,17 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.7",
-    "ng-lightstreamer": "https://github.com/francesco-strazzullo/ng-lightstreamer.git"
+    "angular": "1.4.7",
+    "ng-lightstreamer": "https://github.com/francesco-strazzullo/ng-lightstreamer.git",
+    "bootstrap": "3.3.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
   }
+
 }

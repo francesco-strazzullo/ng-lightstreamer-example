@@ -14,7 +14,7 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
+  "dependencies": {
     "angular": "~1.4.7",
     "ng-lightstreamer": "https://github.com/francesco-strazzullo/ng-lightstreamer.git"
   }

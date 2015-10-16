@@ -1,0 +1,21 @@
+{
+  "name": "ng-lightstreamer-example",
+  "version": "0.0.1",
+  "homepage": "https://github.com/francesco-strazzullo/ng-lightstreamer-example",
+  "authors": [
+    "Francesco Strazzullo"
+  ],
+  "description": "ng-lightstreamer basic example",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.7",
+    "ng-lightstreamer": "https://github.com/francesco-strazzullo/ng-lightstreamer.git"
+  }
+}

@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-app="ng-lightstreamer-example">
 <head>
 	<title>ng-lighstreamer</title>
 	<!-- bower:css -->
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
 	<!-- endbower -->
 </head>
-<body data-ng-app="ng-lightstreamer-example">
+<body data-ng-controller="Main">
 	<h1>ng-lighstreamer</h1>
 	<!-- bower:js -->
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
 	<script src="bower_components/ng-lightstreamer/ng-lightstreamer.js"></script>
+	<script src="bower_components/ng-lightstreamer/lightstreamer-client.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<!-- endbower -->
 	<!-- inject:js -->
 	<script src="src/app.js"></script>
+	<script src="src/controllers.js"></script>
 	<!-- endinject -->
 </body>
 </html>

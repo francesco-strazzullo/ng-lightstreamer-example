@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "angular": "1.4.7",
-    "ng-lightstreamer": "https://github.com/francesco-strazzullo/ng-lightstreamer.git",
+    "ng-lightstreamer": "https://github.com/francesco-strazzullo/ng-lightstreamer.git#master",
     "bootstrap": "3.3.5"
   },
   "overrides": {

@@ -1,0 +1,51 @@
+(function() {
+    "use strict";
+
+    angular.module('ng-lightstreamer-example').value('Items',[
+        {
+            key:'item1'
+        },
+        {
+            key:'item2'
+        },
+        {
+            key:'item3'
+        },
+        {
+            key:'item4'
+        },
+        {
+            key:'item5'
+        },
+        {
+            key:'item6'
+        },
+        {
+            key:'item7'
+        },
+        {
+            key:'item8'
+        },
+        {
+            key:'item9'
+        },
+        {
+            key:'item10'
+        }
+    ])
+    .constant('Fields',[
+        "stock_name",
+        "last_price",
+        "time",
+        "pct_change",
+        "bid_quantity",
+        "bid",
+        "ask",
+        "ask_quantity",
+        "min",
+        "max",
+        "ref_price", 
+        "open_price"
+    ]);
+
+}());

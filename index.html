@@ -18,12 +18,31 @@
 	<!-- endbower -->
 	<!-- inject:js -->
 	<script src="src/app.js"></script>
+	<script src="src/services.js"></script>
 	<script src="src/controllers.js"></script>
 	<!-- endinject -->
 
 	<div class="container">
-		<button class="btn btn-success" data-ng-click="connect();">Connect</button>
 		Status: {{status}};
+
+		<table class="table">
+			<thead>
+				<tr>
+					<th></th>
+					<th data-ng-repeat="field in fields">
+						{{field}}
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr data-ng-repeat="item in items">
+					<td>{{$index}}</td>
+					<td data-ng-repeat="field in fields">
+						{{item[field]}}
+					</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 </body>
 </html>

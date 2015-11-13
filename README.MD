@@ -1,5 +1,5 @@
 # ng-lightstreamer-example
-ng-lighstreamer basic example
+[ng-lighstreamer](https://github.com/francesco-strazzullo/ng-lightstreamer) basic example
 
 ## Setup
 
